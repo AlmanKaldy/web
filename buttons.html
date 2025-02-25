@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>пробую кнопки в html</title>
+</head>
+<body>
+
+    <a href="https://www.youtube.com/watch?v=tDqTXipQmBU&list=PLZPZq0r_RZOOxqHgOzPyCzIl4AJjXbCYt&index=11"
+    target="_blank">
+    <button style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px;">click me</button>
+    </a>
+
+    <br>
+    <hr>
+    <br>
+
+    <button onclick="doSomething()"    style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 25px;">click me</button>
+
+    <p id="greeting">Hello</p>
+
+    <script>
+        function doSomething() {
+            document.getElementById("greeting").innerHTML = "Goodbye";
+        }
+    </script>
+
+
+
+
+</body>
+</html>
